@@ -8,7 +8,7 @@ const name = "Vasya";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App qwerty={name} />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
