@@ -10,7 +10,7 @@ export class CounterClass extends React.Component {
     console.log("componentDidMount");
   }
 
-  componentDidUpdate() {
+  componentDidUpdate(prevProps, prevState, snapshot) {
     console.log("componentDidUpdate");
   }
 

@@ -4,7 +4,7 @@
 }
 
 .Counter-button {
-  color: white;
+  color: black;
   background-color: green;
   border: none;
   border-radius: 10px;
@@ -14,4 +14,5 @@
 
 .Counter-counter {
   margin-bottom: 10px;
+  color: black;
 }

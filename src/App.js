@@ -1,8 +1,7 @@
 import { useState, useCallback, useEffect } from "react";
-import { Counter } from "./components/counter";
 import { Form } from "./components/form";
-import { MessageList } from "./components/message-list";
 import "./App.css";
+import { Counter } from "./components/counter/Counter";
 
 const App = () => {
   const [name, setName] = useState("");
@@ -20,12 +19,8 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
-        <Form name={name} handleNameChange={handleNameChange} />
-        <br />
-        <br />
-        <br />
-        <MessageList />
+        <Counter/>
+        <Form name={name} handleNameChange={handleNameChange}/>
       </header>
     </div>
   );
